@@ -34,6 +34,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1IjoiY2hhbmRsZXJjcmFuZSIsImEiOiJjanQwcTNhaWEwM2x2M3pwM2I4Nm40Nmo2In0.82_w067nYHhuvrsL3kuHUw</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>location when in use message</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>location always and when in use message</string>
+	<key>NSCameraUsageDescription</key>
+	<string>camera permission message</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
