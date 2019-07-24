@@ -1,0 +1,62 @@
+{
+  "name": "MapboxVisionNativeAll",
+  "version": "0.5.0",
+  "summary": "Internal core framework for vision components",
+  "homepage": "https://www.mapbox.com/vision/",
+  "license": {
+    "type": "CUSTOM",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "Mapbox": "mobile@mapbox.com"
+  },
+  "social_media_url": "https://twitter.com/mapbox",
+  "documentation_url": "https://www.mapbox.com/vision/",
+  "source": {
+    "http": "https://mapbox-api-downloads-production.s3.amazonaws.com/vision/ios/cocoapods/mapbox-vision-native-all_0.5.0.zip?AWSAccessKeyId=ASIATNLVGLR2PGTMH4Y6&Expires=1563994957&Signature=0cczoS6d5ADnBuUS0DRwAqiCVHM%3D&x-amz-security-token=FQoGZXIvYXdzEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDCikycP5SjPmFTbVayKWBKsaqWCvDwsVCVHjf8Qlv9Ckz%2Btq%2BdYwFYS%2FG6EPNOAAN0hgrAKEdmUuaNgusZdAR8Lm8JPVU3zrWdGmkV0vv71cataSOwh9RYJWQTvr91xkrrmz58jo3CezTCBTvJvAh2x3NkT6WS7AJct58mYI4dFSvGfgagUlWF5Sl2KTJNue%2BYpLLyHY3%2FLlbSt0MR%2F7G03jnZghCMRxLI6dLCYIZmkVIwH5r%2BJdrZxpO8J0LvaWtK8Jr6DO7gk3s%2FUv8cjJwm%2FgiVEhvRbspqNcvtYcNZtQeVm2JVxSwpEihz8U4RboirahTGwcBkfW2Y392xGdX8bDkfAizAKjKTv3tWN88U86F97AJ7px%2BuDJk1aHXSZda0O2MB2clNwZtPo37cgJ4YIqnmuW%2FjImJJYp%2FaD2nqsg9DIiSvMsNtvdmJ6oy3iD8oA5cpT0%2BBal8k4Cj8VIQmH3EDm4Sid9kHBQeCMOEYZlYkSR8KlTaJORA84IRhvrmOBQy%2BoQS8f4vQcpYR0Gq9GnXgVVaHyNkLfBI3NcZ7LdHZ5TS%2BT%2Bgv%2Fnnyz1hz2%2FpNUXwiLB%2BgFqq0%2FB%2BFrAgcbu7a8Lzt2sUzPDViHJx33zi9KdHpZLxX18le8hz0OimvSyllKJ%2F8i0%2FL4W8TCSL274FmEZUcWgi4zj0zX%2B6%2Fv%2Fq8DD4t3nKs%2Fl2pPNOFJDkSJrAIlhq20uFwkeq663Ht5oQaHYmSirleLpBQ%3D%3D"
+  },
+  "platforms": {
+    "ios": "11.2"
+  },
+  "requires_arc": true,
+  "default_subspecs": [
+    "Vision",
+    "AR",
+    "Safety"
+  ],
+  "subspecs": [
+    {
+      "name": "Vision",
+      "ios": {
+        "vendored_frameworks": "MapboxVisionNative.framework"
+      },
+      "dependencies": {
+        "OpenCV": [
+          "~> 2.4.13.6"
+        ]
+      }
+    },
+    {
+      "name": "AR",
+      "ios": {
+        "vendored_frameworks": "MapboxVisionARNative.framework"
+      },
+      "dependencies": {
+        "MapboxVisionNativeAll/Vision": [
+
+        ]
+      }
+    },
+    {
+      "name": "Safety",
+      "ios": {
+        "vendored_frameworks": "MapboxVisionSafetyNative.framework"
+      },
+      "dependencies": {
+        "MapboxVisionNativeAll/Vision": [
+
+        ]
+      }
+    }
+  ]
+}

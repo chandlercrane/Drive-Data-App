@@ -1,0 +1,6 @@
+framework module MapboxVisionAR {
+  umbrella header "MapboxVisionAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

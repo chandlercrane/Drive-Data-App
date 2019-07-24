@@ -1,0 +1,73 @@
+PODS:
+  - MapboxMobileEvents (0.9.5)
+  - MapboxVision (0.5.0):
+    - MapboxMobileEvents (~> 0.9.5)
+    - MapboxVisionNativeAll/Vision (= 0.5.0)
+    - ZIPFoundation (~> 0.9.9)
+  - MapboxVisionAR (0.5.0):
+    - MapboxVision (= 0.5.0)
+    - MapboxVisionNativeAll/AR (= 0.5.0)
+  - MapboxVisionNativeAll (0.5.0):
+    - MapboxVisionNativeAll/AR (= 0.5.0)
+    - MapboxVisionNativeAll/Safety (= 0.5.0)
+    - MapboxVisionNativeAll/Vision (= 0.5.0)
+  - MapboxVisionNativeAll/AR (0.5.0):
+    - MapboxVisionNativeAll/Vision
+  - MapboxVisionNativeAll/Safety (0.5.0):
+    - MapboxVisionNativeAll/Vision
+  - MapboxVisionNativeAll/Vision (0.5.0):
+    - OpenCV (~> 2.4.13.6)
+  - MapboxVisionSafety (0.5.0):
+    - MapboxVision (= 0.5.0)
+    - MapboxVisionNativeAll/Safety (= 0.5.0)
+  - OpenCV (2.4.13.6)
+  - ZIPFoundation (0.9.9)
+
+DEPENDENCIES:
+  - MapboxVision (from `https://github.com/mapbox/mapbox-vision-ios.git`, tag `v0.5.0`)
+  - MapboxVisionAR (from `https://github.com/mapbox/mapbox-vision-ios.git`, tag `v0.5.0`)
+  - "MapboxVisionNativeAll (from `https://api.mapbox.com/downloads/v1/vision/ios/mapbox-vision-native-all/0.5.0.podspec?access_token=sk.eyJ1IjoiY2hhbmRsZXJjcmFuZSIsImEiOiJjanh1ajJkN3oxNXAwM3BxZmV6NHE2NHdsIn0.73g8pUefqHeyLeUzL3JRug`)"
+  - MapboxVisionSafety (from `https://github.com/mapbox/mapbox-vision-ios.git`, tag `v0.5.0`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MapboxMobileEvents
+    - OpenCV
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  MapboxVision:
+    :git: https://github.com/mapbox/mapbox-vision-ios.git
+    :tag: v0.5.0
+  MapboxVisionAR:
+    :git: https://github.com/mapbox/mapbox-vision-ios.git
+    :tag: v0.5.0
+  MapboxVisionNativeAll:
+    :podspec: "https://api.mapbox.com/downloads/v1/vision/ios/mapbox-vision-native-all/0.5.0.podspec?access_token=sk.eyJ1IjoiY2hhbmRsZXJjcmFuZSIsImEiOiJjanh1ajJkN3oxNXAwM3BxZmV6NHE2NHdsIn0.73g8pUefqHeyLeUzL3JRug"
+  MapboxVisionSafety:
+    :git: https://github.com/mapbox/mapbox-vision-ios.git
+    :tag: v0.5.0
+
+CHECKOUT OPTIONS:
+  MapboxVision:
+    :git: https://github.com/mapbox/mapbox-vision-ios.git
+    :tag: v0.5.0
+  MapboxVisionAR:
+    :git: https://github.com/mapbox/mapbox-vision-ios.git
+    :tag: v0.5.0
+  MapboxVisionSafety:
+    :git: https://github.com/mapbox/mapbox-vision-ios.git
+    :tag: v0.5.0
+
+SPEC CHECKSUMS:
+  MapboxMobileEvents: f6c21b2e59066c5c7093585de7c15adae3b63da0
+  MapboxVision: 003c4cbdcd951b125136629f839705d533524f1c
+  MapboxVisionAR: 1d11876e2e8bd78a993bb21d994627a613b2b9c5
+  MapboxVisionNativeAll: 82f2a73864160bc3e6316059c270c5f1f0789493
+  MapboxVisionSafety: 4f1368a3deb19b11e5cf1b8851062e8486c86a1e
+  OpenCV: cd36a3467c21572d658c2640488fe0d5a93ca192
+  ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
+
+PODFILE CHECKSUM: 57637cafbb3a8d24d6f04bd8957f0ecc3f2bfbec
+
+COCOAPODS: 1.7.2

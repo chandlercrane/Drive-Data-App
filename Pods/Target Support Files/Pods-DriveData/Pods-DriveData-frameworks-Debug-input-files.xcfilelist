@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-DriveData/Pods-DriveData-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework
+${BUILT_PRODUCTS_DIR}/MapboxVision/MapboxVision.framework
+${BUILT_PRODUCTS_DIR}/MapboxVisionAR/MapboxVisionAR.framework
+${PODS_ROOT}/MapboxVisionNativeAll/MapboxVisionARNative.framework
+${PODS_ROOT}/MapboxVisionNativeAll/MapboxVisionSafetyNative.framework
+${PODS_ROOT}/MapboxVisionNativeAll/MapboxVisionNative.framework
+${BUILT_PRODUCTS_DIR}/MapboxVisionSafety/MapboxVisionSafety.framework
+${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework

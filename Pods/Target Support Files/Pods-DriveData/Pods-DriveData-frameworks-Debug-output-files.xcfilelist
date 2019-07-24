@@ -1,0 +1,8 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxVision.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxVisionAR.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxVisionARNative.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxVisionSafetyNative.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxVisionNative.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxVisionSafety.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZIPFoundation.framework

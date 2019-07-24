@@ -1,0 +1,6 @@
+framework module MapboxVisionNative {
+  umbrella header "MapboxVisionNative.h"
+
+  export *
+  module * { export * }
+}
